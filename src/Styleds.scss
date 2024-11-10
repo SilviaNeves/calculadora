@@ -50,3 +50,25 @@ main{
                             background-color: antiquewhite;
                         }
                     }
+@@media (max-width: 600px) {
+    main {
+        padding: 10px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        input {
+            font-size: 1rem;
+            max-width: 250px;
+        }
+
+        .buttons button {
+            font-size: 1.2rem;
+            padding: 8px 15px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+    }}
