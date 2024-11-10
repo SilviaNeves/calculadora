@@ -1,0 +1,52 @@
+main{
+        background-color: violet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 100px 500px;
+        h1{
+            color: rgb(73, 7, 148);
+            font-size: 50px;
+            margin-bottom: 20px;
+                    
+        }
+
+                }
+        
+                input {
+                    margin: 10px 0;
+                    padding: 10px;
+                    font-size: 1.2rem;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    width: 100%;
+                    max-width: 300px;
+                    background-color: antiquewhite;
+        
+                }
+                                h3 {
+                                    color: rgb(32, 15, 15);
+                                    font-size: 50px;
+                                    margin-top: 20px;
+                                    text-align: center;
+                                }
+
+                    .buttons{
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap:wrap;
+                        padding: 50px;
+
+                        button{
+                            margin: 10px;
+                            padding: 10px 20px;
+                            font-size: 1.5rem;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            color: rgb(28, 14, 109);
+                            background-color: antiquewhite;
+                        }
+                    }
